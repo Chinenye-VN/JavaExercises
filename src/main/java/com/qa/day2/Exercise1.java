@@ -35,11 +35,10 @@ public class Exercise1 {
             double result = num1 / num2;
             System.out.println(result);
             return result;
-        }
-        else {
+        } else {
             System.out.println("Cannot execute");
             return 0;
-        }
 
+        }
     }
 }
