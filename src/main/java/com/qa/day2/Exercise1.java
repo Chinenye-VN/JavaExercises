@@ -6,7 +6,7 @@ public class Exercise1 {
         addingIntegers(4,2);
         subtractIntegers(4,2);
         multiplyIntegers(4,2);
-        divideIntegers(3,4);
+        divideIntegers(3,3);
     }
 
 
@@ -30,7 +30,7 @@ public class Exercise1 {
         return result;
     }
 
-    public static double divideIntegers (int num1 , int num2) {
+    public static double divideIntegers (double num1 , double num2) {
         if (num1 < num2) {
             double result = num1 / num2;
             System.out.println(result);
