@@ -10,9 +10,25 @@ public class Exercise2 {
 
     public static void main(String[] args) {
 
+        addingSubjectScores(20,100,120);
+        calcPercentageAverage(20,100,120);
+
     }
 
 
 
-    public static int addingSubjectScores (int sub1, int sub2, int sub3)
+    public static int addingSubjectScores (int Physics, int Chemistry, int Biology) {
+
+        int TotalScore = Physics + Chemistry + Biology;
+        System.out.println(TotalScore);
+        return TotalScore;
+
+    }
+
+    public static double calcPercentageAverage (double Physics, double Chemistry, double Biology) {
+
+        double Percentage = ((Physics + Chemistry + Biology) / 450) * 100;
+        System.out.println(Percentage);
+        return Percentage;
+    }
 }
