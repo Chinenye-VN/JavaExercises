@@ -6,6 +6,7 @@ public class Exercise2 {
     public static int Chemistry;
     public static int Biology;
     public static int TotalScore;
+    public static int Average;
     public static int Percentage;
 
     public static void main(String[] args) {
@@ -26,7 +27,8 @@ public class Exercise2 {
     }
 
     public static double calcPercentageAverage (double Physics, double Chemistry, double Biology) {
-
+        double Average = (Physics + Chemistry + Biology) / 450;
+        System.out.println(Average);
         double Percentage = ((Physics + Chemistry + Biology) / 450) * 100;
         System.out.println(Percentage);
         return Percentage;
