@@ -17,7 +17,6 @@ public class Exercise2 {
     }
 
 
-
     public static int addingSubjectScores (int Physics, int Chemistry, int Biology) {
 
         int TotalScore = Physics + Chemistry + Biology;

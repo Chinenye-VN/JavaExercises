@@ -31,7 +31,7 @@ public class Exercise1 {
     }
 
     public static double divideIntegers (double num1 , double num2) {
-        if (num1 < num2) {
+        if (num1 > num2) {
             double result = num1 / num2;
             System.out.println(result);
             return result;

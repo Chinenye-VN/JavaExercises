@@ -13,8 +13,10 @@ public class Conditionals1 {
     public static int method1 (int a, int b, boolean check) {
         if (check){
             System.out.println(a+b);
+            return a+b;
         } else {
             System.out.println(a*b);
+            return a*b;
         }
-    }
+     }
 }
