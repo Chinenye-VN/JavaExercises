@@ -11,11 +11,15 @@ public class Exercise2 {
 
     public static void main(String[] args) {
 
-        addingSubjectScores(20,100,120);
-        calcPercentageAverage(20,100,120);
+        addingSubjectScores(50,100,120);
+        calcPercentageAverage(50,100,120);
+        if(calcPercentageAverage(50,100,120) < 60) {
+            System.out.println("You need 60% to pass");
+        } else{
+            System.out.println("Well done, you've passed");
+        }
 
     }
-
 
     public static int addingSubjectScores (int Physics, int Chemistry, int Biology) {
 
@@ -24,12 +28,12 @@ public class Exercise2 {
         return TotalScore;
 
     }
-
     public static double calcPercentageAverage (double Physics, double Chemistry, double Biology) {
-        double Average = (Physics + Chemistry + Biology) / 450;
+        double Average = ((Physics + Chemistry + Biology) / 450);
         System.out.println(Average);
         double Percentage = ((Physics + Chemistry + Biology) / 450) * 100;
         System.out.println(Percentage);
         return Percentage;
     }
+
 }
