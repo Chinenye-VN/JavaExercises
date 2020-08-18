@@ -14,10 +14,15 @@ public class Exercise2 {
         addingSubjectScores(50,100,120);
         calcPercentageAverage(50,100,120);
         if(calcPercentageAverage(50,100,120) < 60) {
-            System.out.println("You need 60% to pass");
-        } else{
-            System.out.println("Well done, you've passed");
+            System.out.println("You need 60% on all your subjects to pass");
+        } if(calcPercentageAverage(100,59,140)< 60){
+            System.out.println("You need 60% on all your subjects to pass");
+        } if (calcPercentageAverage(80,100,55)< 60) {
+            System.out.println("You need 60% on all your subjects to pass");
+        } else {
+            System.out.println("Well done you've passed all your subjects");
         }
+
 
     }
 
