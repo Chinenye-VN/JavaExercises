@@ -7,7 +7,7 @@ import static com.qa.day2.Conditionals1.method1;
 public class Conditionals1 {
 
     public static void main(String[] args) {
-        method1(1,2, true);
+        method1(1,2, false);
     }
 
     public static int method1 (int a, int b, boolean check) {
@@ -18,5 +18,5 @@ public class Conditionals1 {
             System.out.println(a*b);
             return a*b;
         }
-     }
+    }
 }
