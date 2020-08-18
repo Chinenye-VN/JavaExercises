@@ -22,7 +22,7 @@ public class TempConverter {
         return (9.0 / 5.0) * (kelvin - 273) + 32;
     }
 
-    public float convertFahrenheitToKelvin(int fahrenheit) {
-        return (5 / 9) * (fahrenheit - 32) + 273;
+    public double convertFahrenheitToKelvin(double fahrenheit) {
+        return (5.0/ 9.0) * (fahrenheit - 32) + 273;
     }
 }
