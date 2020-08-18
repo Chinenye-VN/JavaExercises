@@ -1,13 +1,21 @@
-//package com.qa.day3;
+package com.qa.day3;
 
-    //public class Iterations2 {
+    public class Iterations2 {
 
-    //public static void main(String[] args) {
-    //for( i=100; i<200; i++) {
+    public static void main(String[] args) {
+        int A =100;
+    for( A=100; A<200; A++) {
 
-       // if(i%=0) {
-            //System.out.println("-");
-        //}
-    //}
-    //}
-//}
+       if(A%2==0) {
+            System.out.println("-");
+        }else {
+           System.out.println("*");
+       }
+    }
+    }
+
+}
+
+
+
+
